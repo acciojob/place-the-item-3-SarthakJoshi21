@@ -1,2 +1,21 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Gap between items */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
 
-/* Your CSS Code here. */
+  
+  .item {
+    flex: 0 1 calc(25% - 10px);
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5em;
+  }
